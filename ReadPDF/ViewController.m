@@ -26,7 +26,7 @@
 
 - (IBAction)readFile:(id)sender {
     UIWebView *webView = [[UIWebView alloc] initWithFrame:CGRectMake(100, 100, 200, 200)];
-    NSURL *targetURL = [NSURL URLWithString:@"https://www.packtpub.com/sites/default/files/9781849518123-Chapter-2.pdf"];
+    NSURL *targetURL = [NSURL URLWithString:@"Enter your pdf url"];
     NSURLRequest *request = [NSURLRequest requestWithURL:targetURL];
     [webView loadRequest:request];
     [self.view addSubview:webView];
