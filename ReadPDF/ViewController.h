@@ -10,6 +10,7 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)readFile:(id)sender;
 
 @end
 
